@@ -30,10 +30,10 @@ This extension allows you to easily scan a webpage for images, preview them, sel
 Since this extension is not yet on the Chrome Web Store, you can install it manually by following these steps:
 
 1.  **Download or Clone the Repository:**
-    *   **Option A (Download ZIP):**
-        *   Click the green "Code" button on this GitHub repository page.
-        *   Select "Download ZIP."
-        *   Extract the contents of the downloaded ZIP file to a folder on your computer (e.g., `WallpaperDownloaderExtension`).
+    *   **Downloads
+
+       You can download the latest stable version of the extension from the [Releases page](https://github.com/snowballons/WallpaperDownloaderExtension/releases).
+      Download the `.zip` file for the desired version, extract it, and then follow the     manual installation steps.
     *   **Option B (Clone with Git):**
         ```bash
         git clone https://github.com/snowballons/WallpaperDownloaderExtension.git
