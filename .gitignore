@@ -1,0 +1,11 @@
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor specific files
+.vscode/
+*.swp
+*~
+
+# Any personal build output or temporary files you might create
+# example_folder_to_ignore/

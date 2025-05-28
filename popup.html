@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Wallpaper Downloader</title>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+</head>
+<body>
+  <h3>Wallpaper Downloader</h3>
+
+  <div id="instructions" class="instructions">
+    Click "Start Scan" to find images on the page.
+  </div>
+
+  <div>
+    <label for="folderName">Download Subfolder Name:</label>
+    <input type="text" id="folderName" value="DownloadedWallpapers" placeholder="e.g., MyWallpapers">
+  </div>
+
+  <div id="downloadLimitContainer" style="display:none;">
+    <label for="downloadLimit">Max Images to Download (0 for all):</label>
+    <div class="number-input-container">
+      <button id="decreaseLimitBtn" class="stepper-btn">-</button>
+      <input type="number" id="downloadLimit" value="0" min="0">
+      <button id="increaseLimitBtn" class="stepper-btn">+</button>
+    </div>
+  </div>
+
+  <button id="downloadButton">Start Scan</button>
+
+  <div id="status"></div>
+
+  <div id="imagePreviewContainer">
+    <p><strong>Found Images (click to deselect/select):</strong></p>
+    <div id="imagePreviews"></div>
+    <div class="selection-buttons">
+        <button id="selectAllButton" style="display:none;">Select All</button>
+        <button id="deselectAllButton" style="display:none;">Deselect All</button>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

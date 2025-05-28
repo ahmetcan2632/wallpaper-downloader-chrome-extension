@@ -1,0 +1,133 @@
+body {
+  font-family: sans-serif;
+  width: 380px; /* Increased width for previews */
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+h3 {
+  margin-top: 0;
+  color: #333;
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 0.9em;
+}
+
+input[type="text"] {
+  width: calc(100% - 12px); /* Account for padding */
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1em;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 5px;
+  margin-right: 5px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#status {
+  margin-top: 10px;
+  font-size: 0.9em;
+  min-height: 20px; /* Ensure space for messages */
+}
+
+#imagePreviewContainer {
+  margin-top: 15px;
+  max-height: 200px; /* Limit height and make scrollable */
+  overflow-y: auto;
+  border: 1px solid #eee;
+  padding: 5px;
+}
+
+#imagePreviews img {
+  width: 70px; /* Smaller previews */
+  height: 70px;
+  object-fit: cover;
+  margin: 3px;
+  border: 2px solid transparent;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+#imagePreviews img.selected {
+  border-color: #007bff;
+}
+
+#imagePreviews img.deselected {
+  opacity: 0.5;
+  border-color: #ccc;
+}
+
+.instructions {
+  font-size: 0.85em;
+  color: #555;
+  margin-bottom: 10px;
+  padding: 8px;
+  background-color: #f0f0f0;
+  border-radius: 4px;
+  text-align: center;
+}
+
+#downloadLimitContainer {
+  margin-bottom: 10px;
+}
+
+.number-input-container {
+  display: flex;
+  align-items: center;
+}
+
+.number-input-container input[type="number"] {
+  width: 60px;
+  text-align: center;
+  margin: 0 5px;
+  /* Remove spinners for custom buttons if browser supports it */
+  -moz-appearance: textfield;
+}
+.number-input-container input[type="number"]::-webkit-outer-spin-button,
+.number-input-container input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.stepper-btn {
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  font-size: 1.2em;
+  line-height: 28px; /* Vertically center text */
+  background-color: #e0e0e0;
+  color: #333;
+  border: 1px solid #ccc;
+}
+.stepper-btn:hover {
+  background-color: #d0d0d0;
+}
+
+.selection-buttons {
+  margin-top: 8px;
+  text-align: center; /* Center the select/deselect buttons */
+}
+.selection-buttons button {
+    margin: 0 5px;
+}
